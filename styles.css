@@ -1,0 +1,151 @@
+.nav_component1 img {
+  width: 100%;
+  position: relative;
+}
+.nav_component1 {
+  width: 5%;
+}
+.nav_component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_component2 ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.nav_component2 ul li {
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.hero_image img {
+  width: 100%;
+}
+.hero_image {
+  background-color: rgb(226, 221, 221);
+}
+.hero_bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+h3 {
+  width: 350px;
+  font-weight: 300;
+}
+img {
+  width: 100%;
+}
+.bottom_content {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+  padding-top: 0px;
+}
+.loreum_head {
+  padding: 45px;
+  margin: 0px;
+  font-size: 40px;
+}
+.font_icons {
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+}
+.nav_component3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 50px;
+}
+.bottom_content p {
+  font-weight: 600;
+}
+.bottom_content_div {
+  width: 50%;
+}
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+}
+.nav-div div {
+  width: 20px;
+  height: 1px;
+  background-color: black;
+  margin-top: 5px;
+}
+.upper-content {
+  position: absolute;
+  z-index: 100;
+  top: 860px;
+  left: 50px;
+
+  background-color: rgb(84, 79, 79);
+  color: white;
+  padding: 10px 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav_component2 ul li {
+    font-size: 14px;
+  }
+  h3 {
+    width: 200px;
+    font-weight: 300;
+  }
+  .upper-content {
+    top: 400px;
+    padding: 5px 10px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* .nav_component2 {
+    display: none;
+  } */
+  .hero_bottom {
+    flex-direction: column;
+  }
+  .bottom_content {
+    flex-direction: column;
+    padding: 20px;
+  }
+  h3 {
+    width: 100%;
+    font-size: 14px;
+  }
+  .bottom_content_div {
+    width: 100%;
+  }
+  .loreum_head {
+    padding: 20px;
+    font-size: 25px;
+  }
+  .nav_component2 ul li {
+    font-size: 6px;
+    margin: 0px;
+  }
+  .nav_component3 {
+    margin-right: 0px;
+  }
+  .font_icons {
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+  }
+  .upper-content {
+    top: 230px;
+    padding: 3px 7px;
+    font-size: 15px;
+  }
+}
